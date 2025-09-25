@@ -1,6 +1,6 @@
-# 🩺 Medical Chatbot
+# 🩺 Grocery store Chatbot
 
-A smart AI-powered chatbot designed to answer medical-related questions using Retrieval-Augmented Generation (RAG). It combines the power of LLMs ( Gemini) with vector-based document search to provide accurate, context-aware answers from trusted medical sources.
+A smart AI-powered chatbot designed to answer Grocery store-related questions using Retrieval-Augmented Generation (RAG). It combines the power of LLMs ( Gemini) with vector-based document search to provide accurate, context-aware answers from trusted Grocery store sources.
 
 ---
 
@@ -9,7 +9,7 @@ A smart AI-powered chatbot designed to answer medical-related questions using Re
 - 🔍 **RAG-based QA**: Combines LLMs with vector search for reliable answers.
 - 💬 **Conversational Interface**: Accepts natural language questions.
 - 🧠 **LLM Integration**: Supports OpenAI GPT or Google Gemini models.
-- 📚 **Custom Medical Knowledge**: Uses your own documents (PDFs, articles, etc.) for retrieval.
+- 📚 **Custom Grocery store Knowledge**: Uses your own documents (PDFs, articles, etc.) for retrieval.
 - ⚙️ **Embeddings via HuggingFace or Google**.
 - 🗂️ **Vector Store**: Supports Pinecone, FAISS, or other LangChain-compatible backends.
 

@@ -36,7 +36,7 @@ os.environ["GOOGLE_AI_KEY"] = GOOGLE_AI_KEY
 
 embeddings = download_hugging_face_embeddings()
 
-index_name = "medbot"
+index_name = "grocerybot"
 
 docsearch = PineconeVectorStore.from_existing_index(   
     index_name=index_name,
@@ -77,7 +77,7 @@ def index():
 
 @app.route("/health", methods=["GET"])
 def health_check():
-    return jsonify({"status": "healthy", "message": "Medical chatbot API is running"})
+    return jsonify({"status": "healthy", "message": "Grocery chatbot API is running"})
 
 @app.route("/api/chat", methods=["POST"])
 def api_chat():
